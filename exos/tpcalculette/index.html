@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculette</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Ma calculette</h1>
+
+  <label for="a">Nombre 1 :</label>
+  <input type="number" id="a"><br><br>
+
+  <label for="b">Nombre 2 :</label>
+  <input type="number" id="b"><br><br>
+
+  <button onclick="testCalcul('+')">+</button>
+  <button onclick="testCalcul('-')">-</button>
+  <button onclick="testCalcul('*')">×</button>
+  <button onclick="testCalcul('/')">÷</button>
+
+  <div id="result" style="margin-top:20px; font-weight:bold;"></div>
+</body>
+</html>

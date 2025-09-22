@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a4d32545-7145-4ec9-adf2-bbf8868804e9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65371/ItemService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ItemService.wsdl" MetadataType="Wsdl" ID="5e18eb55-ad90-4f3f-bbe6-4b6d48872896" SourceId="1" SourceUrl="http://localhost:65371/ItemService.svc?wsdl" />
+    <MetadataFile FileName="ItemService.xsd" MetadataType="Schema" ID="3806e558-c80c-45ce-9f31-53bfcd493744" SourceId="1" SourceUrl="http://localhost:65371/ItemService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ItemService1.xsd" MetadataType="Schema" ID="adabb92f-c99d-4faf-93e7-5dc0f3e623a1" SourceId="1" SourceUrl="http://localhost:65371/ItemService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ItemService2.xsd" MetadataType="Schema" ID="11b7d3f1-dd39-49c0-a6b4-de24fd01b3d9" SourceId="1" SourceUrl="http://localhost:65371/ItemService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ItemService.disco" MetadataType="Disco" ID="3ea2b0f2-86dd-4da7-9cc4-539cfe1796b7" SourceId="1" SourceUrl="http://localhost:65371/ItemService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

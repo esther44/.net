@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="tpWcfCalculPrixTvaServiceTVA.TVAService" CodeBehind="TVAService.svc.cs" %>

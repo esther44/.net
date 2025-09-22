@@ -1,0 +1,5 @@
+
+<!ELEMENT article (ref,marque,prix)>
+<!ELEMENT ref (#PCDATA)>
+<!ELEMENT marque (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>

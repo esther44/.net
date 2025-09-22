@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="index.js" defer></script>
+    </head>
+    <body class="bg-success d-flex justify-content-center align-items-center vh-100">
+
+  <div class="card p-4 bg-light" style="min-width: 400px;">
+    <form>
+      <div class="mb-3 d-flex align-items-center">
+        <label for="selection" class="form-label me-2">Article :</label>
+        <select id="selection" class="form-select w-auto me-3">
+          <option value="coca">Coca</option>
+          <option value="fanta">Fanta</option>
+          <option value="perrier">Perrier</option>
+          <option value="biere">Bière</option>
+        </select>
+
+        <label for="quantite" class="form-label me-2">Quantité :</label>
+        <input type="number" id="quantite" class="form-control w-25"/>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="detail">
+        <label class="form-check-label" for="detail">Détail</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="total">
+        <label class="form-check-label" for="total">Total</label>
+      </div>
+
+      <div class="mb-3 mt-3">
+        <label for="client" class="form-label">Client :</label>
+        <input type="text" id="client" class="form-control"/>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="mr" name="civilite">
+        <label class="form-check-label" for="mr">Mr</label>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" id="mme" name="civilite">
+        <label class="form-check-label" for="mme">Mme</label>
+      </div>
+
+      <button type="button" id="ok-button" class="btn btn-primary">OK</button>
+    </form>
+
+    <div id="detail-bloc" class="mt-4">
+      <h5 class="fw-bold">Détails facture :</h5>
+      <ul id="detail-list" class="list-group"></ul>
+    </div>
+
+    <div id="total-bloc" class="mt-3"></div>
+  </div>
+</body>
+</html>

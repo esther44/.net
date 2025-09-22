@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+    <script type="text/javascript" src="index.js" defer></script>
+  </head>
+  <body>
+    <form id="articleForm">
+      <label for="ref">Réf</label>
+      <input type="text" id="ref" />
+
+      <label for="marque">Marque</label>
+      <input type="text" id="marque" />
+
+      <label for="prix">Prix</label>
+      <input type="number" id="prix" />
+
+      <button id="btn-ajouter" type="button">Ajouter</button>
+      <button id="btn-afficher" type="button">Afficher</button>
+    </form>
+
+    <table id="articlesTable">
+      <thead>
+        <tr>
+          <th>Réf</th>
+          <th>Marque</th>
+          <th>Prix</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Page3";
+}
+<h2>Page3</h2>
+@{
+
+    var x = (projetMVC1.Models.Client)Session["client"];
+    <div>@x.Nom</div>
+    <div>@x.Prenom</div>
+}

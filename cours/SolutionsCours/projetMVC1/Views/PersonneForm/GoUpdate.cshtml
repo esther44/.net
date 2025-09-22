@@ -1,0 +1,12 @@
+﻿@model projetMVC1.Models.Personne
+@{
+    ViewBag.Title = "GoUpdate";
+}
+<h2>GoUpdate</h2>
+<form method="post" action="/PersonneForm/DoUpdate">
+    <label>id</label><input type="number" name="id" value="@Model.Id" readonly /><br />
+    <label>nom</label><input type="text" name="nom" value="@Model.Nom" /><br />
+    <label>prenom</label><input type="text" name="prenom" value="@Model.Prenom" /><br />
+    <label>id</label><input type="number" name="age" value="@Model.Age" /><br />
+    <button type="submit">UPDATE</button>
+</form>

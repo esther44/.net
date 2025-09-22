@@ -1,0 +1,17 @@
+<articles>
+    <article>
+        <ref>A001</ref>
+        <marque>Samsung</marque>
+        <prix>499.99</prix>
+    </article>
+    <article>
+        <ref>A002</ref>
+        <marque>Apple</marque>
+        <prix>999.00</prix>
+    </article>
+    <article>
+        <ref>A003</ref>
+        <marque>LG</marque>
+        <prix>299.50</prix>
+    </article>
+</articles>

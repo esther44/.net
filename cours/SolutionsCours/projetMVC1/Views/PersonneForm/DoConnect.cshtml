@@ -1,0 +1,14 @@
+﻿@model projetMVC1.Models.Personne
+<h2>DoConnect</h2>
+<p>@ViewBag.Message</p>
+@if (Model != null)
+{
+    <p>Id : @Model.Id</p>
+    <p>Nom : @Model.Nom</p>
+    <p>Prenom : @Model.Prenom</p>
+    <p>Age : @Model.Age</p>
+}
+else
+{
+    <p>Échec de connexion</p>
+}

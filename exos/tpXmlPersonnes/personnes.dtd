@@ -1,0 +1,26 @@
+
+<!ELEMENT personnes (personne*)>
+<!ELEMENT personne (nom, prenom+, age, telephone+, mail?, adresse, comptes)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+
+<!ELEMENT telephone (#PCDATA)>
+<!ATTLIST telephone type (fix|portable) #REQUIRED>
+
+
+<!ELEMENT mail (#PCDATA)>
+
+<!ELEMENT adresse (numero, rue, cp)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT rue (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+
+
+<!ELEMENT comptes (compte+)>
+<!ELEMENT compte (rib)>
+<!ATTLIST compte id ID #REQUIRED>
+<!ATTLIST compte type (pro|perso) #REQUIRED>
+<!ATTLIST compte banque (SG | BNP | CA) #REQUIRED>
+
+<!ELEMENT rib (#PCDATA)>

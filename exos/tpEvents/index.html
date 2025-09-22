@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="index.js" defer type="text/javascript"></script>
+  <style>
+    .error {
+      border: 2px solid red;
+    }
+    .normal {
+      border: 1px solid #ccc;
+    }
+    .green {
+      color: green;
+    }
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <form id="monForm">
+    <label>NOM :</label>
+    <input type="text" id="nom" class="normal"><br><br>
+
+    <label>PRENOM :</label>
+    <input type="text" id="prenom" class="normal"><br><br>
+
+    <label>AGE :</label>
+    <input type="number" id="age" class="normal" min="0" max="120"><br><br>
+
+    <button type="button" id="btn">Valider</button>
+  </form>
+
+  <div id="recap"></div>
+</body>
+</html>

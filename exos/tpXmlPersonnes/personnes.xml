@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personnes SYSTEM "personnes.dtd">
+
+<personnes>
+    <personne>
+        <nom>Durand</nom>
+        <prenom>Jean</prenom>
+        <prenom>Luc</prenom>
+        <age>35</age>
+        <telephone type="fix">0147852369</telephone>
+        <telephone type="portable">0623456789</telephone>
+        <mail>jean.durand@example.com</mail>
+        <adresse>
+            <numero>12</numero>
+            <rue>Rue des Lilas</rue>
+            <cp>75010</cp>
+        </adresse>
+        <comptes>
+            <compte id="c1" type="perso" banque="SG">
+                <rib>FR7630004000031234567890143</rib>
+            </compte>
+            <compte id="c2" type="pro" banque="CA">
+                <rib>FR7630004000039876543210123</rib>
+            </compte>
+        </comptes>
+    </personne>
+
+    <personne>
+        <nom>Lemoine</nom>
+        <prenom>Sophie</prenom>
+        <age>28</age>
+        <telephone type="portable">0678991122</telephone>
+        <adresse>
+            <numero>5</numero>
+            <rue>Av. de la République</rue>
+            <cp>33000</cp>
+        </adresse>
+        <comptes>
+            <compte id="c3" type="perso" banque="BNP">
+                <rib>FR7612345678901234567890123</rib>
+            </compte>
+        </comptes>
+    </personne>
+</personnes>
